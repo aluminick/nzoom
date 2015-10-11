@@ -1,0 +1,36 @@
+body.nzoomed.nhidden {
+	overflow: hidden;
+
+	#w-nzoom.nzoomed {
+		overflow-y: scroll;
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.5);
+    	top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+    	width: 100%;
+	}
+
+
+}
+.nzoom-img {
+	cursor: pointer;
+}
+
+#w-nzoom > img {
+	position: absolute;
+	max-width: 0;
+	max-height: 0;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -o-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+}

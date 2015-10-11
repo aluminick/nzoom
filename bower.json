@@ -1,0 +1,33 @@
+{
+  "name": "nzoom",
+  "version": "0.0.1",
+  "homepage": "http://lightnick.github.io/nzoom/",
+  "authors": [
+    "Nickie Archua <nickiearchua@gmail.com>"
+  ],
+  "description": "A responsive image viewer",
+  "main": [
+    "scripts/",
+    "stylesheets/",
+    "images/default.gif"
+  ],
+  "keywords": [
+    "javascript",
+    "image",
+    "viewer",
+    "image-viewer",
+    "responsive",
+    "pop-up"
+  ],
+  "license": "GNU",
+  "ignore": [
+    ".sass-cache/",
+    "sass/",
+    "images/54322683.jpg",
+    "LICENSE.md",
+    "README.md",
+    "index.html",
+    "bower.json",
+    ".gitignore"
+  ]
+}
