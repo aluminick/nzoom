@@ -12,18 +12,18 @@ A responsive popup image viewer
 * Add `nzoom-img` class to your img element. 
 ###Example
   ```html 
+    <div id="w-nzoom">
+		  <img src="images/default.gif">
+	   </div>
+	   
     <img id="1" width="300px" class="nzoom-img" src="images/54322683.jpg" alt="alt">
     ```
-    To set image's max-width:
-    **nzoom.setMaxWidth(n)**
-    ```javascript
-      nzoom.setMaxWidth(500);
-    ```
-    
-    To set transition duration:
-    **nzoom.setTransDuration(n)**
-    ```javascript
-      nzoom.setTransDuration(5);
-    ```
+###Options
+  ```javascript
+    nzoom.options({
+      setMaxWidth: (n),
+      setTransDuration: (n)
+    });
+  ```
 
 **For a better sample visit** [**nzoom**](http://lightnick.github.io/nzoom/)**!**
