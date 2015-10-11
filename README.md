@@ -25,5 +25,8 @@ A responsive popup image viewer
       setTransDuration: (n)
     });
   ```
-
+###To install using bower:
+  ```
+    bower install nzoom
+  ```
 **For a better sample visit** [**nzoom**](http://lightnick.github.io/nzoom/)**!**
