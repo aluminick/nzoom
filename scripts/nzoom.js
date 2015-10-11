@@ -146,6 +146,17 @@ var nzoom = (function(){
 		},
 		setTransDuration: function(duration) {
 			setTransDuration(duration);
+		},
+		options: function(option){
+			
+			var optionLen = Object.keys(option).length,
+				optionKeys = Object.keys(option),
+				optionValues = Object.keys(option).map(function(k) { return option[k]}),
+				i = 0;
+
+			for(i; i < optionLen; i++) {
+				nzoom[optionKeys[i]](optionValues[i]);
+			}
 		}
 	};
 	
