@@ -18,6 +18,7 @@ A responsive popup image viewer
 	   
     <img id="1" width="300px" class="nzoom-img" src="images/54322683.jpg" alt="alt">
     ```
+    **Note**: Place `w-nzoom` outside your container.
 ###Options
   ```javascript
     nzoom.options({
