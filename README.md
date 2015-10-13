@@ -6,9 +6,13 @@ A responsive popup image viewer
 * stylesheets/nzoom.css
 * images/default.gif
 
+##Installation
+Include the *nzoom.css* and *nzoom.js*
+```html
+ <link rel="stylesheet" type="text/css" href="nzoom.css">
+ <script src="nzoom.js"></script>
+```
 ##How to use
-* Include the *nzoom.css* and *nzoom.js* or the minified one anywhere on your code since this **DOES NOT** require *JQuery*
-
 * Add `nzoom-img` class to your img element. 
 ###Example
   ```html 
