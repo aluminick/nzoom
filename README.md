@@ -6,9 +6,13 @@ A responsive popup image viewer
 * stylesheets/nzoom.css
 * images/default.gif
 
+##Installation
+Include the *nzoom.css* and *nzoom.js*
+```html
+ <link rel="stylesheet" type="text/css" href="nzoom.css">
+ <script src="nzoom.js"></script>
+```
 ##How to use
-* Include the *nzoom.css* and *nzoom.js* or the minified one anywhere on your code since this **DOES NOT** require *JQuery*
-
 * Add `nzoom-img` class to your img element. 
 ###Example
   ```html 
@@ -18,6 +22,7 @@ A responsive popup image viewer
 	   
     <img id="1" width="300px" class="nzoom-img" src="images/54322683.jpg" alt="alt">
     ```
+    **Note**: Place `w-nzoom` outside your container.
 ###Options
   ```javascript
     nzoom.options({
@@ -25,5 +30,8 @@ A responsive popup image viewer
       setTransDuration: (n)
     });
   ```
-
+###To install using bower:
+  ```
+    bower install nzoom
+  ```
 **For a better sample visit** [**nzoom**](http://lightnick.github.io/nzoom/)**!**
