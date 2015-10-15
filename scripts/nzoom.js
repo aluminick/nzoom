@@ -1,10 +1,10 @@
-;window.addEventListener('load', function() {
+;window.onload = function(){
 	try{
 		nzoom.init();
 	}catch(e){
 		console.log(e);
 	}
-});
+}
 
 var nzoom = (function(){
 
